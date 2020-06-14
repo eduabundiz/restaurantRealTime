@@ -50,7 +50,7 @@ const Platillo = ({platillo}) => {
                         </div>
                     </div>
                     <div className="lg:w-7/12 xl:w-9/12 pl-5">
-                        <p className="font-bold text-2xl text-yellow-600 mb-4" >nombre</p>
+                        <p className="font-bold text-2xl text-yellow-600 mb-4" >{nombre}</p>
                         <p className="text-gray-600 mb-4 " >Categoria: {' '}
                           <span className="text-gray-700 font-bold uppercase" >{categoria}</span> </p>
                             <p className="text-gray-600 mb-4 " >{descripcion}</p>
