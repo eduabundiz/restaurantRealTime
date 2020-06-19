@@ -18,7 +18,7 @@ const Menu = () => {
             
         }
         obtenerPlatillos();
-    },[]);
+    },[firebase.db]);
 
     //Snapshot nos permite utilizar la base de datos en tiempo real de firestore
 
