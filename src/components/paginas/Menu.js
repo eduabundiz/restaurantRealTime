@@ -9,7 +9,7 @@ const Menu = () => {
     //Definit el state
     const [platillos,guardarPlatillos] = useState([])
 
-    const{firebase} = useContext(FirebaseContext);
+    const {firebase} = useContext(FirebaseContext);
 
     //consultar la base de datos en tiempo real al cargar
     useEffect(()=>{
